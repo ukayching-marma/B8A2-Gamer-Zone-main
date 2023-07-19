@@ -216,8 +216,61 @@ h2.title-2 {
     font-size: 15px;
     font-weight: 500;
 }
-/* For Mobile View */
 
+/* Play Instanly section */
+section.play {
+    padding-bottom: 100px;
+}
+.play-info h2{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: end;
+}
+.play-info p {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: end;
+    line-height: 26px;
+    margin-top: 20px;
+}
+section.play .container {
+    display: flex;
+    align-items: center;
+}
+.play-info, .play-media {
+    width: 50%;
+    height: 525px;
+}
+.play-media img {
+    width: 80%;
+}
+.play-info {
+    display: flex;
+    align-items: center;
+}
+.bg-img {
+    background-image: url(./images/Rectangle\ 55.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 100%;
+}
+.info {
+    width: 344px;
+    margin: 0 auto;
+}
+.play-media img {
+    width: 260px;
+    position: relative;
+    bottom: -294px;
+    left: -18px;
+}
+
+
+
+
+
+/* For Mobile View */
 @media screen and (max-width: 768px) {
     /* Header secion */
     .header_section .container{
