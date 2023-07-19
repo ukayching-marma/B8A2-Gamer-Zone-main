@@ -620,4 +620,29 @@ footer i.fa-brands.fa-youtube {
     .banner-section {
         height: 450px;
     }
+
+    /* Play instanly */
+    .play-media img {
+        width: 200px;
+        bottom: -290px;
+        left: -112px;
+    }
+    section.play .container {
+        justify-content: space-between;
+    }
+    .play-info, .play-media {
+        width: 40%;
+        height: 525px;
+    }
+    section.play .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .play-info h2 {
+        font-size: 24px;
+    }
+    .play-info p {
+        font-size: 12px;
+    }
 }
