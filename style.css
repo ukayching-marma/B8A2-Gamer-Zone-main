@@ -51,7 +51,7 @@ section, header, footer{
     justify-content: center;
 }
 .container{
-    width: 80vw;
+ width: 80vw;
 }
 
 
@@ -179,7 +179,43 @@ h2.title-2 {
 .banner-section-item-2 img{
     height: inherit;
 }
+/* fix error */
+.banner-section-item-2 img {
 
+    width: 100%;
+}
+
+/* online gamer section */
+.game-section{
+    padding: 100px 0;
+}
+.row h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.row p{
+    font-size: 18px;
+    font-weight: 400;
+    margin:15px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+.row2 {
+    margin-top: 30px;
+}
+.img {
+    width: 23%;
+}
+.img img {
+    width: 100%;
+}
+.img p{
+    font-size: 15px;
+    font-weight: 500;
+}
 /* For Mobile View */
 
 @media screen and (max-width: 768px) {
@@ -215,9 +251,6 @@ h2.title-2 {
     }
     nav.header_nav_menu_item ul li {
         margin: 15px 0px;
-    }
-    .header_logo, img  {
-
     }
     .header_action {
         display: flex;
@@ -267,25 +300,3 @@ h2.title-2 {
         height: auto;
     }
 }
-
-
-
-/* For Tablet View */
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    /* Header section */
-    .header_section .container{
-        grid-template-areas: 
-        'logo logo'
-        'menu action'
-        ;
-    }
-    .header_logo {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
-        height: 40px;
-        align-items: center;
-    }
-    
-}
-/* For Laptop/dektop View */
