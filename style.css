@@ -444,4 +444,20 @@ section.user-section {
     .play-media {
         margin-top: -91px;
     }
+
+    /* user section */
+    .user1 {
+        width: 31%;
+        height: 55px;
+    }
+    .user1 img {
+        width: 50px;
+    }
+    .user1 b {
+        font-size: 10px;
+    }
+    section.user-section {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
 }
