@@ -508,4 +508,47 @@ footer i.fa-brands.fa-youtube {
         padding-top: 0;
         padding-bottom: 50px;
     }
+    /* footer section */
+    .footer-logo img {
+        width: 50px;
+    }
+    footer strong {
+        font-size: 28px;
+        margin-left: 10px;
+    }
+    .footer-nav-menu ul {
+        flex-wrap: wrap;
+    }
+    .menu-1 ul li {
+        margin: 0 20px;
+        width: 23%;
+        line-height: 30px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .menu-1 ul li a{
+        font-size: 13px;
+    }
+    .footer-nav-menu ul {
+        margin-top: 20px;
+    }
+    .menu-2 li {
+        width: 23%;
+        text-align: center;
+        line-height: 50px;
+    }
+    .menu-2 li a i{
+        font-size: 30px;
+    }
+    footer i.fa-brands.fa-youtube{
+        font-size: 30px;
+    }
+    .terms-of-service a, .copyright p {
+        font-size: 10px !important;
+    }
+    .menu-3 li {
+        width: 41%;
+        text-align: center;
+    }
+
 }
