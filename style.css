@@ -299,4 +299,27 @@ h2.title-2 {
         width: 70vw;
         height: auto;
     }
+
+    /* Online games section */
+    .game-section {
+        padding: 50px 0;
+    }
+    .row h2 {
+        font-size: 24px;
+    }
+    .row p {
+        font-size: 18px;
+        margin: 15px;
+    }
+    .row2 {
+        flex-direction: column;
+    }
+    .img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .img p{
+        text-align: center;
+        font-size: 13px;
+    }
 }
