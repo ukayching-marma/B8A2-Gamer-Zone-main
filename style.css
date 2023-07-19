@@ -375,4 +375,50 @@ section.play .container {
         text-align: center;
         font-size: 13px;
     }
+
+    /* Play Instantly section */
+    section.play .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .play-info, .play-media {
+        width: 100%;
+    }
+    .play-info h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .play-info p {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .play-info {
+        width: 50%;
+        height: auto;
+    }
+    .play-media img {
+        width: 40%;
+        position: relative;
+        bottom: -294px;
+        left: -18px;
+    }
+    .bg-img {
+        margin-top: 10px;
+    }
+    .play-media img {
+        width: 40%;
+        position: relative;
+        bottom: -324px;
+        left: -19px;
+    }
+    .play-info {
+        width: 100%;
+        height: auto;
+    }
+    .play-media {
+        margin-top: -91px;
+    }
 }
