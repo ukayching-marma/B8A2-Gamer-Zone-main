@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 /* Common CSS */
 /* Text color */
@@ -42,6 +43,16 @@
 .b_radius_4{
     border-radius: 8px;
 }
+/* All section, header and footer need these style */
+section, header, footer{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80vw;
+}
+
+
 
 
 
