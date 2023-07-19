@@ -598,3 +598,23 @@ footer i.fa-brands.fa-youtube {
     }
 
 }
+
+/* For tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .header_section .container {
+        grid-template-areas: 
+            'logo logo'
+            'menu action';
+    }
+    nav.header_nav_menu_item ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .header_action {
+        margin-top: 0;
+    }
+    .header_logo {
+        text-align: center;
+    }
+    
+}
