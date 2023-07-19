@@ -645,4 +645,19 @@ footer i.fa-brands.fa-youtube {
     .play-info p {
         font-size: 12px;
     }
+    section.play {
+        padding-bottom: 0;
+        margin-top: -186px;
+    }
+    /* user section */
+    .user1 {
+        width: 31%;
+        height: 55px;
+    }
+    .user1 b {
+        font-size: 12px;
+    }
+    .user1 img {
+        width: 48px;
+    }
 }
