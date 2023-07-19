@@ -55,9 +55,19 @@ section, header, footer{
 
 
 /* Header section style */
+.header_logo{
+    grid-area: logo;
+}
+.header_nav_menu_item{
+    grid-area: menu;
+}
+.header_action{
+    grid-area: action;
+}
+  
 .header_section .container{
     display: grid;
-    grid-template-columns: 6fr 3fr 2fr;
+    grid-template-areas: 'logo logo logo logo logo logo  logo  logo menu action';
     align-items: center;
     padding: 30px 0;
 }
@@ -74,6 +84,8 @@ nav.header_nav_menu_item ul {
         display: flex;
         list-style: none;
         margin-left: 8px;
+        /* justify-content: flex-end; */
+        /* margin-right: 40px; */
 }
 nav.header_nav_menu_item ul li{
     margin-left: 50px;
@@ -114,4 +126,9 @@ i.fa-brands.fa-tiktok {
 }
 
 
-
+/* For Desktop View */
+@media screen and (min-width: 767px) {
+    .header_action .container{
+        grid-template-columns: inherit 100% 100%;
+    }
+}
