@@ -2,3 +2,46 @@
     padding: 0;
     margin: 0;
 }
+/* Common CSS */
+/* Text color */
+.primary_color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.secondary_color{
+ color: #ff42a5;
+}
+.black_color{
+    color: #0B0223;
+}
+.white_color{
+    color:#fff;
+}
+.gray_color{
+    color: #534C64;
+}
+/* background color */
+.primary_background_color{
+    background-color: #ff42a5;
+}
+.secondary_background_color{
+    background: #4EC5F7;
+}
+
+/* Boder-Radius */
+.b_radius_1{
+    border-radius: 48px;
+}
+.b_radius_2{
+    border-radius: 50px;
+}
+.b_radius_3{
+    border-radius: 16px;
+}
+.b_radius_4{
+    border-radius: 8px;
+}
+
+
+
