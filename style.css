@@ -293,6 +293,54 @@ section.play .container {
 section.user-section {
     padding: 100px 0;
 }
+
+/* footer section */
+footer{
+    background: #0B0223;
+    padding: 100px 0;
+}
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    align-items: center;
+}
+footer strong {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.footer-nav-menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.footer-nav-menu ul li{
+    margin: 0 20px;
+}
+.footer-nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+footer i {
+    font-size: 40px;
+}
+footer i.fa-brands.fa-youtube {
+    color: white;
+    font-size: 40px;
+}
+.terms-of-service a, .copyright p{
+    font-size: 13px !important;
+    color: gray !important;
+}
+.copyright p {
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* For Mobile View */
 @media screen and (max-width: 768px) {
     /* Header secion */
