@@ -616,5 +616,8 @@ footer i.fa-brands.fa-youtube {
     .header_logo {
         text-align: center;
     }
-    
+    /* banner section */
+    .banner-section {
+        height: 450px;
+    }
 }
